@@ -55,7 +55,7 @@ Once in the container shell, you can then use the instructions below to interact
 ---
 - All required libraries have been installed and are included.
 - Number validation is included to prevent crashes caused by invalid input.
-- API requests can be posted either using curl or Postman.
+- API requests can be posted using curl.
 - API requests follow this format:
     http://localhost:port_number/service_name/?n1=value&n2=value
 
