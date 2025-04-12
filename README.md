@@ -9,7 +9,7 @@ There are two options to build this service:
 - Docker File (Dockerfile)
 - Docker Compose file (docker-compose.yml)
 
-### Building Image Via Dockerfile:
+### Building Image via Dockerfile:
 To build the image via the Dockerfile, type in the following command in the terminal after logging into Docker:
 
 `docker build . -t <desired_image_name>`
@@ -19,6 +19,11 @@ After Docker builds the image, you should see it on Docker Desktop.
 Run the container using the following command:
 
 `docker run <desired_image_name>`
+
+### Building Image via Docker Compose:
+To build the image via Docker Compose, open a terminal inside your version of this repo, then run the following command:
+
+`docker compose up`
 
 
 
